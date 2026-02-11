@@ -6,5 +6,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-   
+    printf("\nMultiplication Table of %d:\n", num);
+
+    
 }
