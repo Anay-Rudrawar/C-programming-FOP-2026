@@ -25,4 +25,10 @@ int main() {
                 printf("Result: %d + %d = %d\n", num1, num2, result);
                 break;
 
+            case 2:
+                result = num1 - num2;
+                printf("Result: %d - %d = %d\n", num1, num2, result);
+                break;
+
+           
 }
