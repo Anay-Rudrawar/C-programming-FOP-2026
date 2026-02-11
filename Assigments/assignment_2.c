@@ -19,5 +19,10 @@ int main() {
             scanf("%d %d", &num1, &num2);
         }
 
-       
+        switch(choice) {
+            case 1:
+                result = num1 + num2;
+                printf("Result: %d + %d = %d\n", num1, num2, result);
+                break;
+
 }
