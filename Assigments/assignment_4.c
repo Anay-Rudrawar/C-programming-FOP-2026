@@ -19,5 +19,13 @@ int main()
     net = gross - tax;          
     
     
-   
+    printf("\nSalary Details:\n");
+    printf("Basic Pay       : %.2f\n", basic);
+    printf("HRA (10%%)       : %.2f\n", hra);
+    printf("TA (5%%)         : %.2f\n", ta);
+    printf("Gross Salary    : %.2f\n", gross);
+    printf("Professional Tax: %.2f\n", tax);
+    printf("Net Salary      : %.2f\n", net);
+
+    return 0;
 }
