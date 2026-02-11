@@ -44,5 +44,15 @@ int main() {
                 }
                 break;
 
-           
+            case 5:
+                printf("End of Program\n");
+                break;
+
+            default:
+                printf("Invalid choice! Please try again.\n");
+        }
+
+    } while(choice != 5);
+
+    return 0;
 }
